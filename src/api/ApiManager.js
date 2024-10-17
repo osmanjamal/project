@@ -1,3 +1,6 @@
+import ThreeCommasApi from '3commas-api-node';
+import BinanceApi from 'node-binance-api';
+
 class ApiManager {
     constructor() {
       this.threeCommasApi = new ThreeCommasApi();
@@ -5,7 +8,6 @@ class ApiManager {
     }
   
     // أضف طرق لإدارة الاتصالات مع واجهات برمجة التطبيقات
-  }
+}
   
-  export default ApiManager;
-  
+export default ApiManager;

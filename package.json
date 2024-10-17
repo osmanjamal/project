@@ -6,31 +6,31 @@
   "type": "module",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js",            // لتشغيل التطبيق في وضع التطوير مع المراقبة التلقائية
-    "build": "echo 'Building project...'", // سكربت افتراضي للبناء (يمكن تخصيصه لاحقًا)
-    "test": "jest",                      // تشغيل الاختبارات باستخدام Jest
-    "lint": "eslint .",                  // تشغيل eslint للتحقق من جودة الكود
-    "format": "prettier --write ."       // تنسيق الكود باستخدام Prettier
+    "dev": "nodemon app.js",            
+    "build": "echo 'Building project...'", 
+    "test": "jest",                      
+    "lint": "eslint .",                  
+    "format": "prettier --write ."
   },
   "dependencies": {
-    "express": "^4.18.2",                // لإدارة الخادم و API
-    "dotenv": "^10.0.0",                 // لإدارة المتغيرات البيئية
-    "nodemailer": "^6.7.2",              // لإرسال البريد الإلكتروني للإشعارات
-    "mongoose": "^6.0.14",               // لإدارة قواعد البيانات MongoDB
-    "jsonwebtoken": "^8.5.1",            // لإدارة التوثيق باستخدام JSON Web Tokens
-    "cors": "^2.8.5"                     // لدعم Cross-Origin Resource Sharing
+    "express": "^4.21.1",                
+    "dotenv": "^16.4.5",                 
+    "nodemailer": "^6.9.15",              
+    "mongoose": "^8.7.1",               
+    "jsonwebtoken": "^9.0.2",            
+    "cors": "^2.8.5"
   },
   "devDependencies": {
-    "nodemon": "^2.0.12",                // لإعادة تشغيل الخادم تلقائيًا أثناء التطوير
-    "jest": "^27.4.3",                   // مكتبة للاختبار
-    "eslint": "^7.32.0",                 // للتحقق من جودة الكود
-    "prettier": "^2.4.1",                // لتنسيق الكود
-    "eslint-config-prettier": "^8.3.0",  // لتجنب تعارضات بين ESLint و Prettier
-    "eslint-plugin-prettier": "^4.0.0"   // لدمج Prettier مع ESLint
+    "nodemon": "^3.1.7",                
+    "jest": "^29.7.0",                   
+    "eslint": "^9.12.0",                 
+    "prettier": "^3.3.3",                
+    "eslint-config-prettier": "^9.1.0",  
+    "eslint-plugin-prettier": "^5.2.1"   
   },
   "engines": {
-    "node": ">=14.0.0",                  // تحديد الحد الأدنى لإصدار Node.js
-    "npm": ">=6.0.0"                     // تحديد الحد الأدنى لإصدار npm
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
   },
   "repository": {
     "type": "git",
