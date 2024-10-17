@@ -1,5 +1,5 @@
-import SyncWithThreeCommas from './SyncWithThreeCommas';
-import SyncWithBinance from './SyncWithBinance';
+import SyncWithThreeCommas from './SyncWithThreeCommas.js';
+import SyncWithBinance from './SyncWithBinance.js';
 
 class SynchronizationModule {
   constructor(apiManager) {

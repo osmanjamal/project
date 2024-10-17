@@ -1,12 +1,12 @@
 // app.js
-import ApiManager from './src/api/ApiManager';
-import WebhookManager from './src/webhook/WebhookManager';
-import LocalDatabase from './src/database/LocalDatabase';
-import SecurityModule from './src/security/SecurityModule';
-import ReportingModule from './src/reporting/ReportingModule';
-import NotificationModule from './src/notification/NotificationModule';
-import SynchronizationModule from './src/synchronization/SynchronizationModule';
-import WebhookProcessor from './src/webhookProcessor/WebhookProcessor';
+import ApiManager from './src/api/ApiManager.js';
+import WebhookManager from './src/webhook/WebhookManager.js';
+import LocalDatabase from './src/database/LocalDatabase.js';
+import SecurityModule from './src/security/SecurityModule.js';
+import ReportingModule from './src/reporting/ReportingModule.js';
+import NotificationModule from './src/notification/NotificationModule.js';
+import SynchronizationModule from './src/synchronization/SynchronizationModule.js';
+import WebhookProcessor from './src/webhookProcessor/WebhookProcessor.js';
 
 class TradingApp {
   constructor() {

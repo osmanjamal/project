@@ -1,5 +1,5 @@
-import EmailNotifications from './EmailNotifications';
-import AppNotifications from './AppNotifications';
+import EmailNotifications from './EmailNotifications.js';
+import AppNotifications from './AppNotifications.js';
 
 class NotificationModule {
   constructor() {

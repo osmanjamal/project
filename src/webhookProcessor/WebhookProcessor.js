@@ -1,6 +1,6 @@
-import DecryptSecretKey from './DecryptSecretKey';
-import VerifySignalTiming from './VerifySignalTiming';
-import ExtractSignalData from './ExtractSignalData';
+import DecryptSecretKey from './DecryptSecretKey.js';
+import VerifySignalTiming from './VerifySignalTiming.js';
+import ExtractSignalData from './ExtractSignalData.js';
 
 class WebhookProcessor {
   constructor(securityModule) {

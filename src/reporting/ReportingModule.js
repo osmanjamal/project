@@ -1,5 +1,5 @@
-import PerformanceReports from './PerformanceReports';
-import ProfitLossAnalysis from './ProfitLossAnalysis';
+import PerformanceReports from './PerformanceReports.js';
+import ProfitLossAnalysis from './ProfitLossAnalysis.js';
 
 class ReportingModule {
   constructor(database) {
