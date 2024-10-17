@@ -1,12 +1,11 @@
 class WebhookManager {
-    constructor() {
-      this.tradingViewWebhook = new TradingViewWebhook();
-    }
-  
-    handleIncomingWebhook(data) {
-      // التعامل مع الويب هوك الوارد وتوجيهه إلى المعالج المناسب
-    }
+  constructor() {
+    this.tradingViewWebhook = new TradingViewWebhook();
   }
-  
-  export default WebhookManager;
-  
+
+  handleIncomingWebhook(data) {
+    // التعامل مع الويب هوك الوارد وتوجيهه إلى المعالج المناسب
+  }
+}
+
+export default WebhookManager;

@@ -1,4 +1,4 @@
-import nodemailer from 'nodemailer';
+import nodemailer from "nodemailer";
 
 class EmailNotifications {
   constructor() {
@@ -10,14 +10,14 @@ class EmailNotifications {
   async send(message) {
     try {
       await this.transporter.sendMail({
-        from: 'your-trading-bot@example.com',
-        to: 'user@example.com',
-        subject: 'Trading Bot Notification',
-        text: message
+        from: "your-trading-bot@example.com",
+        to: "user@example.com",
+        subject: "Trading Bot Notification",
+        text: message,
       });
-      console.log('Email sent successfully');
+      console.log("Email sent successfully");
     } catch (error) {
-      console.error('Error sending email:', error);
+      console.error("Error sending email:", error);
     }
   }
 }

@@ -1,5 +1,5 @@
-import DataEncryption from './DataEncryption.js';
-import ApiKeyManagement from './ApiKeyManagement.js';
+import DataEncryption from "./DataEncryption.js";
+import ApiKeyManagement from "./ApiKeyManagement.js";
 
 class SecurityModule {
   constructor() {

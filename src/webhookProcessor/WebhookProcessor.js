@@ -1,6 +1,6 @@
-import DecryptSecretKey from './DecryptSecretKey.js';
-import VerifySignalTiming from './VerifySignalTiming.js';
-import ExtractSignalData from './ExtractSignalData.js';
+import DecryptSecretKey from "./DecryptSecretKey.js";
+import VerifySignalTiming from "./VerifySignalTiming.js";
+import ExtractSignalData from "./ExtractSignalData.js";
 
 class WebhookProcessor {
   constructor(securityModule) {
@@ -15,7 +15,7 @@ class WebhookProcessor {
       const signalData = this.extractSignalData.extract(decryptedData);
       return signalData;
     } else {
-      throw new Error('Invalid signal timing');
+      throw new Error("Invalid signal timing");
     }
   }
 }

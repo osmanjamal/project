@@ -1,12 +1,11 @@
 class TradingViewWebhook {
-    constructor() {
-      // إعداد معالج TradingView webhook
-    }
-  
-    processWebhook(data) {
-      // معالجة البيانات الواردة من TradingView
-    }
+  constructor() {
+    // إعداد معالج TradingView webhook
   }
-  
-  export default TradingViewWebhook;
-  
+
+  processWebhook(data) {
+    // معالجة البيانات الواردة من TradingView
+  }
+}
+
+export default TradingViewWebhook;

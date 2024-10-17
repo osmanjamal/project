@@ -1,10 +1,9 @@
 class LocalDatabase {
-    constructor() {
-      // إعداد اتصال قاعدة البيانات المحلية
-    }
-  
-    // أضف طرق للتعامل مع قاعدة البيانات المحلية
+  constructor() {
+    // إعداد اتصال قاعدة البيانات المحلية
   }
-  
-  export default LocalDatabase;
-  
+
+  // أضف طرق للتعامل مع قاعدة البيانات المحلية
+}
+
+export default LocalDatabase;
